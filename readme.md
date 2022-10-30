@@ -1,4 +1,5 @@
-# Quantum GAN for Small Molecule Drug
+# Qule
+Qule is a quantum enhanced AI driven drug design tool. 
 
 This library refers to the following source code.
 * [yongqyu/MolGAN-pytorch](https://github.com/yongqyu/MolGAN-pytorch)
