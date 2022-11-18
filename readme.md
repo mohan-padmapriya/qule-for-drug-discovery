@@ -1,9 +1,14 @@
+
+
 # Qule
 Qule is a quantum enhanced AI driven drug design tool. 
+It implements a quantum generator (may be run on AWS Braket) and classical discriminator and a classical reward network. 
 
 This library refers to the following source code.
 * [yongqyu/MolGAN-pytorch](https://github.com/yongqyu/MolGAN-pytorch)
+* [Jundeli/quantum-gan](https://github.com/jundeli/quantum-gan)
 
+> Attention: The code for this project is not available to view right now. It'll be back up shortly
 
 ## Dependencies
 
@@ -23,16 +28,19 @@ python main.py --mode=train
 
 ```
 
+
 ## Prediction
 To run the model against test dataset, make sure the model is fully trainned in the first place.
 ```
 python main.py --mode=test
 ```
 ## Structure
-`main.py` parse the command line arguments and pass it to the `Qgans_molGen.py` which access generator and discriminator model from `models.py` which inturn access `layers.py` and `utils.py` evaluate the metrics.  
+`main.py` parses the command line arguments and pass it to the `Qgans_molGen.py` which accesses generator and discriminator model from `models.py` which in turn accesses `layers.py` and `utils.py` to evaluate the molecule generated.  
 
-Below are some generated molecules:
-![Alt text](image/generated_sample.png?raw=true "Generated Molecules")
+
+
+Contributers:
+Padmapriya Mohan, Sabarikirishwaran Ponnambalam, Tarush Singh, Sphoorthy Nadimpalli, Shubhang Mathur
 
 
 
