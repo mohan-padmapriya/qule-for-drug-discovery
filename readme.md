@@ -1,4 +1,4 @@
-
+_Qule won the first place at the Quantum Science and Technology Hackathon - 2022. Learn more here - [IEEE Quantum - QSTH 2022](https://quantum.ieee.org/education/qsth-2022)_
 
 # Qule
 Qule is a quantum enhanced AI driven drug design tool. 
