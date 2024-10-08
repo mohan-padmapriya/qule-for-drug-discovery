@@ -4,7 +4,7 @@ _Qule won the first place at the Quantum Science and Technology Hackathon - 2022
 Qule is a quantum enhanced AI driven drug design tool. 
 It implements a quantum generator (may be run on AWS Braket) and classical discriminator and a classical reward network. 
 
-This library refers to the following source code.
+This library is built on the following projects.
 * [yongqyu/MolGAN-pytorch](https://github.com/yongqyu/MolGAN-pytorch)
 * [Jundeli/quantum-gan](https://github.com/jundeli/quantum-gan)
 
